@@ -1,14 +1,15 @@
+/*---gjord av melvin---*/
 main{
     grid-template-columns: 50% 50%;
     grid-template-rows: 290% 290% 20%;
     display:grid;
 }
 
-
+/*---gjord av melvin---*/
 main{
     padding:2px;
 }
-
+/*---gjord av melvin---*/
 div{
     grid-column: 2;
     justify-self: right;

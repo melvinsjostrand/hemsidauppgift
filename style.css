@@ -1,12 +1,19 @@
+/*---
+länkat font
+gjord av melvin---*/
 @font-face {
   font-family:"space ranger";
   src: url(fonts/space\ age.ttf);
 }
-
+/*---
+sin font så att det funkar på alla sidor
+gjord av melvin---*/
 :root{
   font-family: "space ranger";
 }
-
+/*---
+knapp för att byta sida
+gjord av melvin---*/
 .button1{
 margin-right: 20px;    
     justify-self: right;
