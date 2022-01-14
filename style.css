@@ -1,28 +1,19 @@
-main{
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 290% 290% 20%;
-    display:grid;
+@font-face {
+  font-family:"space ranger";
+  src: url(fonts/space\ age.ttf);
 }
 
-
-main{
-    padding:2px;
-}
-
-div{
-    grid-column: 2;
-    justify-self: right;
+:root{
+  font-family: "space ranger";
 }
 
 .button1{
-    border-radius: 20px;
-    width: 100px;    
+margin-right: 20px;    
     justify-self: right;
+    text-decoration: none;
+    color:black;
 }
-.button2{
-border-radius: 20px;
-width: 100px;    
-}
+
 
 /*Header/dropdown menu, hibba's del*/
 body{
