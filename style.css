@@ -17,10 +17,14 @@ gjord av melvin---*/
 .button1{
 margin-right: 20px;    
     justify-self: right;
-    text-decoration: none;
+    text-decoration: underline;
     color:black;
 }
+.button2{
+  color: black;
+  text-decoration: underline;
 
+}
 
 /*Header/dropdown menu, hibba's del*/
 body{
