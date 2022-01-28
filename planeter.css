@@ -1,7 +1,7 @@
 /*---gjord av melvin---*/
 main{
     grid-template-columns: 50% 50%;
-    grid-template-rows: 290% 290% 20%;
+    grid-template-rows: 50% 70% 20%;
     display:grid;
 }
 
@@ -13,4 +13,13 @@ main{
 div{
     grid-column: 2;
     justify-self: right;
+}
+/*--gjord av hibba för bilder--*/
+.img1{
+    width: 600px;
+    height: 400px;
+}
+.img2{
+    width: 550px;
+    height: 500px;
 }
