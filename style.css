@@ -1,11 +1,11 @@
 /*--länkat font gjord av melvin---*/
 @font-face {
   font-family:"space ranger";
-  src: url(fonts/OriginTech\ personal\ use.ttf);
+  src: url(fonts/space\ age.ttf);
 }
 /*---sin font så att det funkar på alla sidor, gjord av melvin---*/
 :root{
-  font-family: "space ranger";
+  font-family: "space ranger", serif;
 }
 /*---knapp för att byta sida gjord av melvin, ändrad av hibba---*/
 .button1{
@@ -15,6 +15,9 @@
 .buttons{
   text-decoration: none;
   color: white;
+  border-color: rgb(34, 34, 34);
+  border-radius: 10px;
+  background-color: rgb(34, 34, 34);
 }
 
 /*Header/dropdown menu, hibba's del*/

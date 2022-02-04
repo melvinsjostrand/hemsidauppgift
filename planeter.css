@@ -7,12 +7,7 @@
 }
 /*---gjord av melvin, ändrad av hibba---*/
 .knapp{
-    grid-column: 2;
-    justify-self: right;
     height: 20px;
-    border-color: rgb(34, 34, 34);
-    border-radius: 10px;
-    background-color: rgb(34, 34, 34);
     padding-top: 0.5em;
     padding-left: 0.5em;
     padding-right: 0.5em;
@@ -23,9 +18,9 @@ body{
     background-image: url('Bilder/Space-Force-800x400.jpeg');
 }
 .img1{
-    margin: 0 auto;
     width: 450px;
-    height: 250px;
+    height: 300px;
+    margin: auto 0;
 }
 .img2{
     margin: 0 auto;
@@ -36,6 +31,7 @@ body{
     margin: 0 auto;
     width: 500px;
     height: 400px;
+    margin: auto 0;
 }
 h1{
     text-align: center;
@@ -50,4 +46,9 @@ h1{
     background-color: black;
     color: white;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    padding-left: 2em;
+    padding-right: 2em;
 }
+/*--*/
